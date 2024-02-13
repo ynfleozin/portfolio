@@ -376,6 +376,7 @@ section.projetos .flex {
 footer {
     padding: 10px 4%;
     box-shadow: 0 0 20px #9b58d152;
+    width: 100%;
 }
 
 footer p {
