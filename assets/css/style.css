@@ -391,6 +391,10 @@ footer p {
         flex-direction: column;
     }
 
+    main{
+        margin: auto;
+    }
+
     /* CABEÇALHO */
 
     .abrir > i{
@@ -427,8 +431,13 @@ footer p {
         gap: 40px;
     }
 
+    .txt-topo-site{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
     .topo-site h1 {
-        font-size: 40px;
+        font-size: 45px;
         margin-bottom: 2px;
     }
 
@@ -439,11 +448,11 @@ footer p {
     
     .topo-site h3 {
         font-size: 23px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
-    .topo-site .img-topo {
-        margin-top: 0;
+    .img-topo{
+        display: none;
     }
 
     /* SKILLS */
@@ -496,5 +505,10 @@ footer p {
 
     .img-port-hor, .img-port {
         margin: 50px auto;
+    }
+
+    /* RODAPÉ */
+    footer{
+        width: 100%;
     }
 }
