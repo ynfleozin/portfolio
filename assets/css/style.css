@@ -511,6 +511,7 @@ footer p {
 
     .img-port-hor, .img-port {
         margin-top: 50px;
+        max-width: 350px;
     }
 
     /* RODAPÉ */
