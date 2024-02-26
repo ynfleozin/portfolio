@@ -146,7 +146,11 @@ header>.interface {
     margin-left: 0;
 }
 
-.btn-contato button {
+.btn-cv{
+    margin-bottom: 15px;
+}
+
+.btn-contato button, .btn-cv button {
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 600;
@@ -155,6 +159,7 @@ header>.interface {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+    width: 300px;
 }
 
 button:hover {
@@ -167,7 +172,8 @@ button:hover {
 /*  TOPO DO SITE */
 
 section.topo-site {
-    padding: 20px 4%;
+    padding: 10px 4%;
+    margin-top: 0;
 }
 
 section.topo-site .flex {
@@ -200,6 +206,7 @@ section.topo-site .flex {
 .topo-site .img-topo {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    margin-top: 0px;
 }
 
 @keyframes flutuar {
@@ -419,8 +426,7 @@ footer p {
         font-size: 20px;
     }
 
-    .menu-desktop,
-    .btn-contato {
+    .menu-desktop{
         display: none;
     }
 
@@ -464,6 +470,11 @@ footer p {
         display: none;
     }
 
+    .btn-contato{
+        justify-content: center;
+        align-items: center;
+    }
+
     /* SKILLS */
 
     section.skills {
@@ -472,10 +483,11 @@ footer p {
     }
 
     .skills .skills-box {
-        margin-bottom: 5px;
+        margin-bottom: 0;
         padding: 50px;
         margin: auto;
         width: 300px;
+        box-shadow: 0 0 10px #9b58d154;
     }   
 
     .skills .skills-box h3 {
@@ -500,7 +512,7 @@ footer p {
     }
 
     .sobre .txt-sobre p{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     section.sobre{
