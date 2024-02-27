@@ -481,6 +481,7 @@ footer p {
 
     .projeto-img{
         justify-content: center;
+        align-items: center;
     }
 
     .projeto-img img{
