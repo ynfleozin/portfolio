@@ -479,6 +479,12 @@ footer p {
 
     /* PROJETOS */
 
+    
+    .projetos {
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
     .projeto-img{
         justify-content: center;
         align-items: center;
