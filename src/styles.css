@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+:root {
+  --cor0: #ffffff;
+  --cor1: #9a58d1;
+  --cor2: #571092;
+  --cor3: #10041f;
+  --cor4: #0e0e0e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.titulo-1 {
+  color: var(--cor2);
+  font-size: 40px;
+  text-align: center;
+}
+
+.titulo-2 {
+  color: var(--cor0);
+  font-size: 40px;
+  text-align: left;
+}
+
+span {
+  color: var(--cor1);
+}
+
+.flex {
+  display: flex;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  background-color: var(--cor4);
+  height: 100%;
+}
+
+/* Barra Rolagem */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cor4);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cor2);
+  border-radius: 10px; 
+}

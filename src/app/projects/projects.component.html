@@ -1,0 +1,25 @@
+<section class="projetos">
+  <div class="interface">
+    <h2 class="titulo-1">MEUS <span>PROJETOS</span></h2>
+    <div class="flex">
+      <div *ngFor="let project of projects" class="projeto">
+        <div class="projeto-img">
+          <img [src]="project.image" alt="{{project.title}}">
+        </div>
+        <div class="projeto-desc">
+          <h1>{{project.title}}</h1>
+          <p>{{project.description}}</p>
+          <p id="tecnologias">{{project.technologies}}</p>
+        </div>
+        <div class="btn-projeto">
+          <a [href]="project.siteLink" target="_blank" *ngIf="project.siteLink">
+            <button>Ver Site</button>
+          </a>
+          <a [href]="project.repoLink" target="_blank">
+            <button>Repositório</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

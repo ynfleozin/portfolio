@@ -1,0 +1,59 @@
+section.sobre {
+  padding: 40px 4%;
+}
+
+.sobre .flex {
+  align-items: center;
+}
+
+.sobre .txt-sobre {
+  color: var(--cor0);
+}
+
+.sobre .txt-sobre p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.sobre .txt-sobre h2 {
+  margin-bottom: 20px;
+}
+
+.social button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  background-color: var(--cor1);
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:hover {
+  color: var(--cor0);
+  transform: scale(1.05);
+  transition: .2s;
+  box-shadow: 1px 2px 11px #9b58d146;
+}
+
+@media screen and (max-width: 1020px) {
+.social{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sobre .txt-sobre h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobre .txt-sobre p{
+    font-size: 15px;
+}
+
+section.sobre{
+    margin-bottom: 0;
+}
+}
+
