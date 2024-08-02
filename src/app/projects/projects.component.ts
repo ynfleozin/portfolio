@@ -21,16 +21,16 @@ export class ProjectsComponent {
       title: 'Site Gran Romano',
       description: 'Este projeto é um site corporativo desenvolvido para a empresa Gran Romano, especializada em produtos alimentícios. O site foi criado com o objetivo de fornecer informações detalhadas sobre a empresa e seus produtos, além de facilitar o contato com os clientes.',
       technologies: 'Angular, JavaScript, HTML e CSS',
-      siteLink: 'https://buzzfeed-clone-alpha.vercel.app/',
-      repoLink: 'https://github.com/ynfleozin/buzzfeed-clone'
+      siteLink: 'https://site-gran-romano.vercel.app/',
+      repoLink: 'https://github.com/ynfleozin/site-gran-romano'
     },
     {
       image: '/assets/images/taskmanager.png',
       title: 'Task Manager',
       description: 'Um projeto de gerenciamento de tarefas que permite adicionar, listar, atualizar e remover tarefas.',
       technologies: 'Node.js, Express, MySQL, JavaScript, HTML e CSS',
-      siteLink: 'https://ynfleozin.github.io/projeto-tela-login/',
-      repoLink: 'https://github.com/ynfleozin/projeto-tela-login'
+      siteLink: 'https://task-manager-smoky-phi.vercel.app/',
+      repoLink: 'https://github.com/ynfleozin/task-manager'
     }
   ];
 }
