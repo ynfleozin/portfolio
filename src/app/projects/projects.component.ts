@@ -23,14 +23,6 @@ export class ProjectsComponent {
       technologies: 'Angular, JavaScript, HTML e CSS',
       siteLink: 'https://site-gran-romano.vercel.app/',
       repoLink: 'https://github.com/ynfleozin/site-gran-romano'
-    },
-    {
-      image: '/assets/images/taskmanager.png',
-      title: 'Task Manager',
-      description: 'Um projeto de gerenciamento de tarefas que permite adicionar, listar, atualizar e remover tarefas.',
-      technologies: 'Node.js, Express, MySQL, JavaScript, HTML e CSS',
-      siteLink: 'https://task-manager-smoky-phi.vercel.app/',
-      repoLink: 'https://github.com/ynfleozin/task-manager'
     }
   ];
 }
