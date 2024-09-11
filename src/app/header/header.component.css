@@ -71,7 +71,7 @@
 
 header {
   padding: 20px;
-  background-color: var(--cor2);
+  background-color: var(--cor4);
 }
 
 header>.interface {
@@ -82,7 +82,7 @@ header>.interface {
 }
 
 .menu-desktop a {
-  color: rgb(209, 209, 209);
+  color: white;
   text-decoration: none;
   display: inline-block;
   font-weight: bolder;

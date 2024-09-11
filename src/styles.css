@@ -47,7 +47,7 @@ main {
 }
 
 body {
-  background-color: var(--cor4);
+  background-color: black;
   height: 100%;
 }
 
@@ -63,5 +63,5 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: var(--cor2);
-  border-radius: 10px; 
+  border-radius: 10px;
 }
