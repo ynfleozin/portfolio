@@ -30,7 +30,7 @@ export class ProjectsComponent {
       description: 'Este projeto é um site desenvolvido para a empresa SH Tecnologia, do setor de tecnologia. O objetivo do site é apresentar os produtos e serviços da empresa, proporcionando uma experiência de usuário intuitiva e responsiva.',
       technologies: 'Angular, JavaScript, HTML e CSS',
       siteLink: '',
-      repoLink: ''
+      repoLink: 'https://github.com/ynfleozin/site-shtecnologia'
     }
   ];
 }
