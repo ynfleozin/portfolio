@@ -16,7 +16,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-          I am a FullStack developer currently pursuing a degree in Software Engineering, with experience in developing complete applications, ranging from responsive interfaces to API implementation. I have expertise in front-end technologies such as Angular, TypeScript, JavaScript, HTML, and CSS, as well as back-end development using Java, Spring Boot, and Node.js. I am proficient in integrating systems with SQL and NoSQL databases and have experience leveraging AWS services for cloud-based solutions.
+          I am a Full Stack Developer currently pursuing a degree in Software Engineering, with experience in developing complete applications, from responsive interfaces to API implementation. I have expertise in front-end technologies such as Angular, ReactJS, TypeScript, JavaScript, and SCSS, as well as back-end development using Java, Spring Boot, and Node.js. Additionally, I am skilled in integrating systems with SQL and NoSQL databases and have experience leveraging AWS services for cloud-based solutions.
           </p>
         </div>
       </div>
