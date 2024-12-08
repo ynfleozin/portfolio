@@ -3,9 +3,10 @@ import Project from './Project';
 import './projects.css';
 import granRomanoImg from '../../assets/img/projects/granromano.webp';
 import shTecnoImg from '../../assets/img/projects/shtecno.webp';
-import fitnessImg from '../../assets/img/projects/fitnesstracker.webp'
-import urlImg from '../../assets/img/projects/URL-shortener.webp'
-import homyzImg from '../../assets/img/projects/homyz.webp'
+import fitnessImg from '../../assets/img/projects/fitnesstracker.webp';
+import urlImg from '../../assets/img/projects/URL-shortener.webp';
+import homyzImg from '../../assets/img/projects/homyz.webp';
+import instabytesImg from '../../assets/img/projects/instabytesapi.webp';
 
 const Projects = () => {
   const projectList = [
@@ -39,6 +40,12 @@ const Projects = () => {
       image: homyzImg, 
       title: 'Homyz',
       description: 'Real estate website project developed with React, with smooth navigation and responsive design.',
+    },
+    {
+      link: 'https://github.com/ynfleozin/instabytes-api',
+      image: instabytesImg, 
+      title: 'Instabytes API',
+      description: 'Application developed in Node.js with the aim of providing a functional backend for storing and managing data in a MongoDB Atlas database.',
     },
   ];
 
