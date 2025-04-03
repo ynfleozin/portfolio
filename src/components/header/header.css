@@ -46,7 +46,7 @@
 
 .active-link,
 .nav__link:hover{
-    color: var(--title-color-dark);
+    color: var(--title-color-light);
 }
 
 /* Change Background Header */
@@ -103,7 +103,7 @@
     }
 
     .nav__close:hover{
-        color: var(--title-color-dark);
+        color: var(--title-color-light);
     }
 
     .nav__toggle{

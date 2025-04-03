@@ -3,7 +3,6 @@ import angularIcon from "../../assets/skills/angular.svg"
 import javascriptIcon from "../../assets/skills/javascript.svg"
 import typescriptIcon from "../../assets/skills/typescript.svg"
 import scssIcon from "../../assets/skills/scss.svg"
-import reactIcon from "../../assets/skills/react.svg"
 
 
 const Frontend = () => {
@@ -22,10 +21,6 @@ const Frontend = () => {
 
           <div className="skills__data">
             <img src={javascriptIcon} alt="Angular Icon" className="skills__image" />
-          </div>
-
-          <div className="skills__data">
-            <img src={reactIcon} alt="SCSS Icon" className="skills__image" />
           </div>
 
           <div className="skills__data">

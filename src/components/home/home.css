@@ -22,12 +22,13 @@
 }
 
 .home__social-icon:hover{
-    color: var(--title-color-dark);
+    color: var(--title-color-light);
 }
 
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
+    color: var(--title-color-light);
 }
 
 .home__hand {
@@ -94,6 +95,7 @@
     font-size: 1.25rem;
     color: var(--title-color);
 }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
