@@ -48,6 +48,27 @@
   font-size: var(--smaller-font-size);
 }
 
+.project__icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.project__icons img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.project__icons img:hover {
+  transform: scale(1.2);
+}
+
+.skills{
+  fill: red;
+}
+
 .project__overlay {
   position: absolute;
   top: 0;
